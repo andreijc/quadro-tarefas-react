@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+@import url(../App.css);
+
+.colunas {
+    display: flex;
+    background-color: a;
+
+    gap: 20px;
+}

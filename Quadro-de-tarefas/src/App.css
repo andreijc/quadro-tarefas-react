@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+:root {
+  --cor1: #365902;
+  --cor2: #ABD904;
+  --cor3: #A9BF04;
+  --cor4: #BF5B04;
+  --cor5: #F21905;
+}
+
+body {
+  background-image: linear-gradient(to bottom, var(--cor5), var(--cor2));
+  height: 100vh;
+}
+
+main {
+  user-select: none;
+}
+
+ h1 {
+  color: var(--cor2);
+}
