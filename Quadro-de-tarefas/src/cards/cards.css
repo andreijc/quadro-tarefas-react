@@ -1,0 +1,25 @@
+@import url(../App.css);
+
+.card-colunas {
+    height: 100%;
+    background-color: var(--cor2);
+    border-radius: 9px;
+    padding: 8px;
+}
+
+.card {
+    background-color: whitesmoke;
+    width: 100%;
+    min-height: 70px;
+
+    padding: 8px;
+    margin: 12px 0;
+    border-radius: 8px;
+    border: 1px solid rgb(165, 164, 164);
+    box-shadow: 0 5px 12px rgba(0, 0, 0, 0.336);
+}
+
+.focus-coluna {
+    background-color: var(--cor5);
+    border: 1px solid var(--cor4);
+}
