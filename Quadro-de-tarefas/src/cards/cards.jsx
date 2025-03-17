@@ -13,14 +13,15 @@ function Cards() {
     };
 
     const dragOver = (event)=>{
-        cardpego = event.target;
-        console.log(cardpego);
+        event.preventDefault()
     };
 
-    colunas.forEach((coluna)=>
-        coluna.addEventListener('dragover', dragOver)
-    )
+    
 
+    colunas.forEach((coluna)=>{
+        coluna.addEventListener('dragover', dragOver)}
+    )
+    
     cards.forEach((card)=>{
         card.addEventListener('dragstart', dragStart)
     })
