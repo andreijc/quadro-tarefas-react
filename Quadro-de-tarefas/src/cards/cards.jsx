@@ -25,7 +25,7 @@ function Cards() {
     }
 
     const drop = ({target}) => {
-        if(!target.classList.contains('card-colunas')) return
+        if(!target.classList.contains('card-colunas')) return;
 
         target.append(cardpego)
         target.classList.remove('foco-coluna')
@@ -63,11 +63,6 @@ function Cards() {
     return (
         <>
         <section className="card-colunas">
-            <section className="card
-             " draggable="true">
-                Ola tube
-            </section>
-    
         </section>
         </>
     )
